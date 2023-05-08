@@ -10,6 +10,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    cursor: pointer;
+}
+
+.profile__button:hover {
+        opacity: .6;
 }
 
 @media all and (max-width: 480px) {
@@ -18,15 +23,8 @@
     }
 }
 
-@media all and (max-width: 480px) {
-    .profile__button {
-        width: 15vw;
-    }
-}
-
 @media all and (max-width: 320px) {
     .profile__button {
-        flex-direction: column;
         width: 282px;
         margin-left: auto;
         margin-right: auto;
