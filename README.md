@@ -12,4 +12,4 @@
 * Формы;
 * и другие
 
-* [GitHub Pages](https://danieshah.github.io/yet-another-project/)
+* [GitHub Pages](https://danieshah.github.io/yet-another-project-2/)
