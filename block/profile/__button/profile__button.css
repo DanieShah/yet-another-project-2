@@ -1,0 +1,34 @@
+.profile__button {
+    width: 150px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media all and (max-width: 480px) {
+    .profile__button {
+        width: 31.25vw;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .profile__button {
+        width: 15vw;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .profile__button {
+        flex-direction: column;
+        width: 282px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

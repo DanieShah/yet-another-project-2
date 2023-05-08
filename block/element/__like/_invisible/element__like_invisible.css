@@ -1,0 +1,23 @@
+.element__like_invisible {
+    position: absolute;
+    max-width: 1px;
+    max-height: 1px;
+    overflow: hidden;
+    clip-path: inset(1px 1px 1px 1px);
+}
+
+.element__like_invisible + .element__like_visible {
+    background-image: url(../../../../images/icon/Vector.svg);
+}
+
+.element__like_invisible:disabled + .element__like_visible {
+    background-image: url(../../../../images/icon/Vector.svg);
+}
+
+.element__like_invisible:hover + .element__like_visible {
+    background-image: url(../../../../images/icon/Vector__focus.svg);
+}
+
+.element__like_invisible:checked + .element__like_visible {
+    background-image: url(../../../../images/icon/Union-active.svg);
+}

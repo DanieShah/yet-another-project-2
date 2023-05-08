@@ -1,0 +1,24 @@
+.element {
+    max-width: 282px;
+    height: 361px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+@media all and (max-width: 890px) {
+    .element {
+        max-width: 31.6vw;
+        max-height: 40.5vw;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .element {
+        max-width: 282px;
+        max-height: 361px;
+    }
+}

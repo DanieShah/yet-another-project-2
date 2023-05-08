@@ -1,0 +1,21 @@
+.popup {
+    display: none;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.popup::before {
+    content: "";
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    opacity: .5;
+    background-color: #000;
+}

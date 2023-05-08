@@ -1,0 +1,15 @@
+.element__img {
+    max-width: 282px;
+}
+
+@media all and (max-width: 890px) {
+    .element__img {
+        max-width: 31.6vw;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .element__img {
+        max-width: 282px;
+    }
+}
