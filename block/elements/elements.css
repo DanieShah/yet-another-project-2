@@ -10,20 +10,22 @@
 
 @media all and (max-width: 890px) {
     .elements {
-        max-width: 100%;
+        width: 66%;
         row-gap: 2.24vw;
         column-gap: 1.9vw;
+        grid-template-rows: repeat(3, minmax(min-content, max-content));
+        grid-template-columns: repeat(2, minmax(min-content, max-content));
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
 @media all and (max-width: 320px) {
     .elements {
-        max-width: 282px;
-        margin-left: auto;
-        margin-right: auto;
+        width: 282px;
         grid-template-rows: repeat(6, minmax(min-content, max-content));
         grid-template-columns: minmax(min-content, max-content);
-        row-gap: 20px;
+        row-gap: 16px;
         margin-bottom: 48px;
     }
 }

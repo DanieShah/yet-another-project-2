@@ -16,6 +16,7 @@
 
 .element__like:focus {
     background-image: url(../../../images/icon/Union-active.svg);
+    opacity: 1;
 }
 
 @media all and (max-width: 890px) {
@@ -23,5 +24,13 @@
         height: 2.5vw;
         width: 2.1vw;
         background-size: 2.1vw 2.5vw;
+    }
+}
+
+@media all and (max-width: 890px) {
+    .element__like {
+        height: 22px;
+        width: 19px;
+        background-size: 19px 22px;
     }
 }

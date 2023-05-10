@@ -6,10 +6,18 @@
     max-width: 880px;
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 890px) {
     .profile {
         flex-direction: column;
+        max-width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .profile {
         width: 282px;
-        margin: 0 auto 36px;
+        margin-bottom: 36px;
     }
 }

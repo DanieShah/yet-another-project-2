@@ -17,14 +17,16 @@
         opacity: .6;
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 890px) {
     .profile__button {
-        width: 31.25vw;
+      width: 66%;
+      margin-top: 20px;
     }
 }
 
 @media all and (max-width: 320px) {
     .profile__button {
+        margin-top: 0;
         width: 282px;
         margin-left: auto;
         margin-right: auto;

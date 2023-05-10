@@ -5,9 +5,10 @@
     align-items: center;
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 500px) {
     .profile__info {
-        margin-bottom: 36px;
+        margin-bottom: 32px;
+        width: 280px;
         grid-template-rows: repeat(3, minmax(min-content, max-content));
         grid-template-columns: repeat(2, minmax(min-content, max-content));
     }

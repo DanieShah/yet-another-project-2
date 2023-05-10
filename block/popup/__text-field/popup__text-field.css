@@ -6,7 +6,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
-    padding-bottom: 13px;
+    padding-bottom: 8px;
     outline: none;
     font-family: inherit;
     font-weight: 400;
@@ -26,6 +26,6 @@
 
 @media all and (max-width: 320px) {
     .popup__text-field:last-of-type {
-        margin-bottom: 45px;
+        margin-bottom: 47px;
     }
 }
