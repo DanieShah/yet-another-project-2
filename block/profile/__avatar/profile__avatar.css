@@ -7,6 +7,12 @@
     border-radius: 50%;
 }
 
+@media all and (max-width: 890px) {
+    .profile__avatar{
+        margin-right: 15px;
+    }
+}
+
 @media all and (max-width: 500px) {
     .profile__avatar{
         width: 120px;
@@ -22,6 +28,5 @@
 @media all and (max-width: 320px) {
     .profile__avatar{
         margin-left: 82px;
-
     }
 }
